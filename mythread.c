@@ -8,7 +8,7 @@ typedef struct Node{
 	int id;
 	ucontext_t thread;
 	int *c_id;
-	int noc;//no of children
+	int noc;//number of children
 	char status;
 	int nob;//no of blockers
 	int *blockers;
